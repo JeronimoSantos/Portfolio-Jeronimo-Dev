@@ -1,0 +1,53 @@
+/*  */
+.menu {
+    display: flex;
+    align-items: center;
+    padding: 0 0.5rem;
+    background-color: var(--terciary-color);
+}
+
+/*  */
+.menu-mobile {
+    border-top: 1px solid var(--quaternary-color);
+    justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    bottom: 0;
+}
+
+/*  */
+.menu-link.active .menu-icon,
+.menu-link.active .menu-text {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/*  */
+.menu-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.600rem;
+    padding: 1rem 0.05rem;
+}
+
+/*  */
+.menu-icon, .menu-text {
+    color: var(--quaternary-color);
+}
+
+/*  */
+.menu-icon {
+    font-size: 1.3rem;
+}
+
+/*  */
+.menu-text {
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/*  */
