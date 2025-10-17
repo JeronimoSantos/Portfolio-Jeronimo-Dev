@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-theme="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,6 +10,7 @@
     <title>Portfolio</title>
 </head>
 <body>
+    <!---->
     <header>
         <section class="container-logo">
             <a class="logo" href="./index.html">
@@ -17,12 +18,32 @@
             </a>
         </section>
 
+        <nav class="nav-desktop">
+            <ul class="menu menu-desktop">
+                <li class="menu-item"><a class="menu-link active" href="./index.html" title="Página inicial" target="_self">
+                    <span class="menu-text">Home</span></a>
+                </li>
+                <li class="menu-item"><a class="menu-link" href="./sobre.html" title="Sobre min" target="_self"> 
+                    <span class="menu-text">Sobre</span></a>
+                </li>
+                <li class="menu-item"><a class="menu-link" href="./projetos.html" title="Meus Projetos" target="_self"> 
+                    <span class="menu-text">Projetos</span></a>
+                </li>
+                <li class="menu-item"><a class="menu-link" href="./servicos.html" title="Meus Serviços" target="_self"> 
+                    <span class="menu-text">Serviços</span></a>
+                </li>
+                <li class="menu-item"><a class="menu-link" href="./contato.html" title="Meus Contatos" target="_self"> 
+                    <span class="menu-text">Contato</span></a>
+                </li>
+            </ul>
+        </nav>
+
         <section class="container-icon">
             <i id="toggleTheme" class="fa-regular fa-sun"></i>
         </section>
     </header>
 
-    <nav>
+    <nav class="nav-mobile">
         <ul class="menu menu-mobile">
             <li class="menu-item"><a class="menu-link active" href="./index.html" title="Página inicial" target="_self">
                 <i class="menu-icon fa-solid fa-house"></i> 
@@ -49,15 +70,16 @@
 
     <main>
         <section class="">
-
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta deleniti in eligendi, voluptatum error consequatur corporis eum, commodi facere, accusamus hic dolores saepe repellat. Ad minus maxime architecto eligendi quibusdam?</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque consequuntur distinctio recusandae nisi quos dolorum cupiditate placeat consequatur fugit ea! Error iusto porro, ea reiciendis ab fugiat minima necessitatibus eveniet?</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque consequuntur distinctio recusandae nisi quos dolorum cupiditate placeat consequatur fugit ea! Error iusto porro, ea reiciendis ab fugiat minima necessitatibus eveniet?</p><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Atque consequuntur distinctio recusandae nisi quos dolorum cupiditate placeat consequatur fugit ea! Error iusto porro, ea reiciendis ab fugiat minima necessitatibus eveniet?</p>
         </section>
     </main>
 
     <footer>
-        <section class="">
-
+        <section class="container-footer">
+            <p class="text-footer">© 2025 - Todos os direitos reservados. Jerônimo Santos. Desenvolvido por <a class="link-portfolio-github" href="https://github.com/JeronimoSantos" target="_blank" title="Desenvolvido por Jerônimo S. Rodrigues">Jerônimo S. Rodrigues</a></p>
         </section>
     </footer>
-    <script src=""></script>
+    <script src="./src/js/script.js" defer></script>
 </body>
 </html>
