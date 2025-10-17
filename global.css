@@ -3,6 +3,8 @@
 /* Importe todos os seus estilos base (mobile-first) aqui no topo */
 @import url('./src/css/header.css');
 @import url('./src/css/nav.css');
+@import url('./src/css/footer.css');
+@import url('./src/css/main.css');
 
 /*  */
 * {
@@ -15,11 +17,19 @@
 }
 
 /*  */
-:root {
+:root, :root[data-theme="dark"] {
     --primary-color: #E8E8E8;
     --secondary-bg-color: #8F8F8F;
     --terciary-color: #707070;
     --quaternary-color: #45A5FF;
+}
+
+/*  */
+:root[data-theme="light"] {
+    --primary-color: #2c2c2c;
+    --secondary-bg-color: #d7d1d1;
+    --terciary-color: #201f1f;
+    --quaternary-color: #23609a;
 }
 
 /*  */
@@ -29,7 +39,30 @@ body {
 
 /*  */
 @media screen and (min-width: 760px) {
-   .menu-mobile {
-    display: none;
+    header {
+        position: fixed;
+        border-bottom: 1px solid var(--quaternary-color);
+        padding: 1rem 6rem;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+    }
+
+   .nav-mobile {
+        display: none;
    }
+
+   .nav-desktop {
+        display: flex;
+    }
+
+    main {
+        margin-top: 150px;
+    }
+
+    footer {
+        margin: 0;
+        bottom: 0;
+    }
 }
