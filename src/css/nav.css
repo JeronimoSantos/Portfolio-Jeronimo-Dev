@@ -23,6 +23,13 @@
 }
 
 /*  */
+.menu-link:hover .menu-icon,
+.menu-link:hover .menu-text {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+/*  */
 .menu-link {
     display: flex;
     flex-direction: column;
@@ -51,3 +58,6 @@
 }
 
 /*  */
+.menu-desktop {
+    gap: 1rem;
+}

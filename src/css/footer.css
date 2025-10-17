@@ -1,0 +1,28 @@
+/*  */
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*  */
+.text-footer {
+    color: var(--primary-color);
+}
+
+/*  */
+.link-portfolio-github {
+    color: var(--primary-color);
+}
+
+/*  */
+.link-portfolio-github:hover {
+    color: var(--primary-color);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.nav-desktop {
+    display: none;
+}
