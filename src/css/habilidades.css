@@ -1,0 +1,41 @@
+.container-habilidades {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 6.25rem 1rem 2rem 1rem;
+    margin-top: -5.5rem;
+    gap: 2.25rem;
+    background-color: var(--terciary-color);
+}
+
+.title-habilidades {
+    text-transform: none;
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.lista-habilidades {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 2.25rem;
+}
+
+.habilidades-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.8rem;
+    height: 3.8rem;
+    aspect-ratio: 1/1;
+    border: 1px double var(--quaternary-color);
+    border-radius: 50%;
+    transition: transform 0.5s ease-in-out;
+}
+
+.habilidades-item:hover {
+    transform: scale(1.25);
+    cursor: pointer;
+}
