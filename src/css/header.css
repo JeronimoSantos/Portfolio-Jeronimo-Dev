@@ -7,6 +7,14 @@ header {
     padding: 0.5rem 1rem;
     width: 100%;
     background-color: var(--quaternary-color);
+    box-shadow: 1px 1px 8px #000;
+}
+
+a .logo {
+    width: 2rem;
+    height: 2rem;
+    box-shadow: 2px 1px 6px #000;
+    border-radius: 100%;
 }
 
 /*  */
@@ -16,7 +24,7 @@ i {
 
 /*  */
 #toggleTheme {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     color: var(--primary-color);
     cursor: pointer;
     transition: ease-in-out .4s;
