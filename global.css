@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 /* Importe todos os seus estilos base (mobile-first) aqui no topo */
 @import url('./src/css/header.css');
 @import url('./src/css/nav.css');
 @import url('./src/css/footer.css');
 @import url('./src/css/main.css');
+@import url('./src/css/habilidades.css');
 
 /*  */
 * {
@@ -41,12 +43,17 @@ body {
 @media screen and (min-width: 760px) {
     header {
         position: fixed;
-        border-bottom: 1px solid var(--quaternary-color);
         padding: 1rem 6rem;
         top: 0;
         left: 0;
         right: 0;
         z-index: 1000;
+        background-color: var(--terciary-color);
+    }
+
+    .logo {
+        width: 2rem;
+        height: 2rem;
     }
 
    .nav-mobile {
@@ -57,12 +64,64 @@ body {
         display: flex;
     }
 
+    .menu-link {
+        transition: transform 0.5s ease-in-out;
+    }
+
+    .menu-link:hover {
+        color: var(--quaternary-color);
+        transform: scale(1.10);
+    }
+
     main {
-        margin-top: 150px;
+        margin-top: 50px;
+        padding: 8rem 8rem 6.25rem 8rem;
+    }
+
+    .main-container-text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .title-principal {
+        font-size: 4rem;
+    }
+
+    .btn btn-primary {
+        width: auto;
+    }
+
+    .container-video-pitch {
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .container-habilidades {
+        flex-direction: row;
+        padding: 10.25rem 8rem 2rem 8rem;
+        margin-top: -12.5rem;
+    }
+
+    .title-habilidades {
+        font-size: 4rem;
+        text-align: center;
+    }
+
+    .lista-habilidades {
+        justify-content: center;
+        align-items: center;
+        width: 50rem;
+        font-size: 3rem;
+    }
+
+    .habilidades-item {
+        width: 4.9rem;
+        height: 4.9rem;
     }
 
     footer {
-        margin: 0;
+        margin: 2rem 0 1rem 0;;
         bottom: 0;
     }
 }
