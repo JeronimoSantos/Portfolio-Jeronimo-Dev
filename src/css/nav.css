@@ -13,7 +13,6 @@
     bottom: 0;
     background-color: var(--terciary-color);
     padding: 0 0.5rem;
-    cursor: pointer;
 }
 
 /*  */
@@ -44,12 +43,12 @@
 .menu-link:hover {
     color: var(--quaternary-color);
     transform: scale(1.10);
-    cursor: pointer;
 }
 
 /*  */
 .menu-icon, .menu-text {
     color: var(--quaternary-color);
+    cursor: url('../img/cursor-hover.png'), auto;
 }
 
 /*  */

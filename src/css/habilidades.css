@@ -37,5 +37,9 @@
 
 .habilidades-item:hover {
     transform: scale(1.25);
-    cursor: pointer;
+    cursor: url('../img/cursor-hover.png'), auto;
+}
+
+.habilidades-item i {
+    cursor: url('../img/cursor-hover.png'), auto;
 }

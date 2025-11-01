@@ -45,12 +45,13 @@ h1, h2, h3 {
 .btn:hover {
     transform: scale(1.05);
     transition: ease-in-out 0.5s;
-    cursor: pointer;
+    cursor: url('../img/cursor-hover.png'), auto;
 }
 
 .btn-primary span {
     color: var(--quaternary-color);
     text-transform: uppercase;
+    cursor: url('../img/cursor-hover.png'), auto;
 }
 
 .btn-primary {

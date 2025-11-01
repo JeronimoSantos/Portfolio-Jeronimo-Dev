@@ -25,7 +25,7 @@ footer {
 .link-portfolio-github:hover {
     color: var(--primary-color);
     font-weight: 600;
-    cursor: pointer;
+    cursor: url('../img/cursor-hover.png'), auto;
 }
 
 .nav-desktop {

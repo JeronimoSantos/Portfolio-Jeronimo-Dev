@@ -15,6 +15,7 @@ a .logo {
     height: 2rem;
     box-shadow: 2px 1px 6px #000;
     border-radius: 100%;
+    cursor: url('../img/cursor-hover.png'), auto;
 }
 
 /*  */
@@ -26,6 +27,6 @@ i {
 #toggleTheme {
     font-size: 1.4rem;
     color: var(--primary-color);
-    cursor: pointer;
+    cursor: url('../img/cursor-hover.png'), auto;
     transition: ease-in-out .4s;
 }
