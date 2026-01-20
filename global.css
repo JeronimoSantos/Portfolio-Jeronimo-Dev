@@ -7,6 +7,7 @@
 @import url('./src/css/footer.css');
 @import url('./src/css/main.css');
 @import url('./src/css/habilidades.css');
+@import url('./src/css/projetos.css');
 
 /*  */
 * {
@@ -119,6 +120,34 @@ body {
     .habilidades-item {
         width: 4.9rem;
         height: 4.9rem;
+    }
+
+    .container-projetos {
+        padding: 8rem 8rem 6.25rem 8rem;
+    }
+
+    .title-projetos-main {
+        font-size: 2.25rem;
+    }
+
+    .projetos-cards {
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .card-img-projetos {
+        width: 50%;
+    }
+
+    .container-infor-projetos {
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 1.25rem;
+        overflow: hidden;
+    }
+
+    .card-habilidasdes {
+        justify-content: flex-start;
     }
 
     footer {
