@@ -39,6 +39,8 @@ h1, h2, h3 {
     background: transparent;
     border-radius: 3.125rem;
     padding: 0.875rem 1.5rem;
+    border: none;
+    color: var(--primary-color);
     transition: ease-in-out 0.5s;
 }
 
